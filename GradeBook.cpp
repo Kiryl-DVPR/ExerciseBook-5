@@ -66,12 +66,12 @@ void GradeBook::inputGrades()
                 fCount++;
                 break;
 
-            case '\n':
-            case '\t':
-            case ' ':
+            case '\n': // новая строка
+            case '\t': // табуляция
+            case ' ':  // пробел
                 break;
 
-            default:
+            default: //Если не найдётся ни одного совпадение с case, то исполняется default
                 cout << "Incorrect letter grade entered." << "Enter a new grade." << endl;
             break;
 
