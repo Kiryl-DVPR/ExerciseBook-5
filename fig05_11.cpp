@@ -1,4 +1,4 @@
-#include "GradeBook.h"
+#include "GradeBook.cpp"
 
 int main()
 {

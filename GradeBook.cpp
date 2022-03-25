@@ -37,14 +37,14 @@ void GradeBook::inputGrades()
 {
     int grade;
     cout << "Enter the letter grades." << endl << "Enter the EOF character to end input." << endl;
-    while(( grade = cin.get()) !=EOF)
+    while( ( grade = cin.get() ) != EOF ) // EOF - ctr + z - означает конец файла
     {
-        switch ( grade )
+        switch ( grade ) // В скобках вводимая буква
         {
-            case 'A':
+            case 'A':  // Проаеряет на равенство введённой буквы
             case 'a':
-                aCount++;
-                break;
+                aCount++; // Если совпадает, то + 1 к счётчику
+                break; // Возвращает к началу цикла 
 
             case 'B':
             case 'b':
