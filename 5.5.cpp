@@ -5,8 +5,17 @@ using namespace std;
 
 int main()
 {
-int n;
+int i=1, n, b, sum=0;
+
+cout << " Enter number: " << endl;
 cin >> n;
-cout << n;
+
+while (i<=n)
+{   
+    cin >> b;
+    sum=sum+b;
+    i++;
+}
+cout << sum;
 
 }
