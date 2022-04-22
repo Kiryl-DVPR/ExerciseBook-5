@@ -5,17 +5,18 @@ using namespace std;
 
 int main()
 {
-int i=1, n, b, sum=0;
+    int col, number, sum=0;
 
-cout << " Enter number: " << endl;
-cin >> n;
+    cin >> col;
 
-while (i<=n)
-{   
-    cin >> b;
-    sum=sum+b;
-    i++;
-}
-cout << sum;
+    for (int i = 0; i != col; i++)
+    {
+        cin >> number;
+
+        sum = sum + number;
+    
+    }
+
+    cout << endl << sum;
 
 }

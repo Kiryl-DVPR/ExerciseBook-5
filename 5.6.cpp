@@ -24,7 +24,7 @@ do
     sum=sum + number;
     i++;
     cin >> number;
-
+    
 } while (number!=9999);
 
     sqr=sum/(i-1);
