@@ -1,4 +1,5 @@
 #include <string>
+#include <iomanip>
 using namespace std;
 
 class GradeBook
@@ -12,9 +13,10 @@ class GradeBook
         void displayGradeReport();
     private:
         string courseName;
-        int aCount;
-        int bCount;
-        int cCount;
-        int dCount;
-        int fCount;
+        double aCount;
+        double bCount;
+        double cCount;
+        double dCount;
+        double fCount;
+        double sum;
 };

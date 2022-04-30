@@ -7,4 +7,5 @@ int main()
     myGradeBook.displayMessage();
     myGradeBook.inputGrades();
     myGradeBook.displayGradeReport();
+    
 }

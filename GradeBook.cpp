@@ -1,5 +1,6 @@
 #include <iostream>
 #include  "GradeBook.h"
+
 using namespace std;
 
 GradeBook::GradeBook( string name )
@@ -88,4 +89,8 @@ void GradeBook::displayGradeReport()
         << "\nD: " << dCount
         << "\nF: " << fCount
         << endl;
+
+    sum = ( aCount*4 + bCount*3 + cCount*2 + dCount*1 + fCount*0 ) / (aCount + bCount + cCount + dCount + fCount);
+
+    cout << endl  << "Average grade: " << fixed << setprecision(2) << sum;
 }
