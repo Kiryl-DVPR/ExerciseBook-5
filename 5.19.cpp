@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    double s, p, w=0;
+    double s, p=0, w=0;
     
     cout << "P\t" << "Row Euler" << endl;
         /*for (int i = 2; i < 500000; i++)
