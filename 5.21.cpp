@@ -16,7 +16,7 @@ int main()
     
     while(code!=0)
     {
-    cout << "Enter code agent (1, 2, 3, 4):";
+    cout << "Enter code agent or 0 for quit (1, 2, 3, 4):";
     cin >> code;
     
     switch (code)
@@ -53,6 +53,9 @@ int main()
         cout << "Enter a product rate ($): ";
         cin >> productR;
         cout << "Salary($):" << (productR*amountSP) << endl;
+        break;
+
+        default:
         break;
     }
     }
